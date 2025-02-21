@@ -28,14 +28,14 @@ class Recipe {
 class HomeScreen extends StatelessWidget {
   final List<Recipe> recipes = [
     Recipe(
-      name: 'Chocolate Cake',
-      ingredients: ['Flour', 'Sugar', 'Cocoa Powder', 'Eggs', 'Milk', 'Oil'],
-      instructions: '1. Mix ingredients. 2. Bake in oven.',
+      name: "Chocolate Cake",
+      ingredients: "Flour, Sugar, Cocoa Powder, Eggs, Milk, Oil",
+      instructions: "1. Mix ingredients. 2. Bake in oven.",
     ),
     Recipe(
-      name: 'Pancakes',
-      ingredients: ['Flour', 'Eggs', 'Milk', 'Sugar', 'Baking Powder', 'Butter'],
-      instructions: '1. Mix ingredients. 2. Cook on a griddle.',
+      name: "Pancakes",
+      ingredients: "Flour, Eggs, Milk, Sugar, Baking Powder, Butter",
+      instructions: "1. Mix ingredients. 2. Cook on a griddle.",
     ),
   ];
 
